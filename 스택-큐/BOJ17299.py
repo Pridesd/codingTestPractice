@@ -14,3 +14,4 @@ for i in range(1, n):
         result[stack.pop()] = data[i]
     stack.append(i)
 print(*result)
+# 스택을 인덱스 용도로 사용하는 문제!
